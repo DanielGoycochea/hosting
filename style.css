@@ -102,7 +102,7 @@ span.punto{
 }
 
 span.dominio{
-    colot: #000;
+    color: #000;
     font-size: 24px;
     font-weight: bold;
 }
@@ -132,7 +132,7 @@ span.precio{
     border-radius: 24px 24px 24px 24px; 
     padding: 20px 30px;
 }
-#services h2{
+#services h2, #precing h2{
   font-family: 'Rubik';
   font-weight: 500;
   font-size: 14px;
@@ -141,7 +141,7 @@ span.precio{
 
 }
 
-#services h3{
+#services h3, #precing h3  {
     font-weight: 500;
     font-size: 28px;
 
@@ -193,3 +193,121 @@ span.precio{
 }
 
 
+/* precinf */
+
+#precing {
+    padding-top: 90px;
+}
+
+#precing h2, #precing h3{
+    text-align: center;
+    margin: 0;
+}
+#precing h3{
+    font-weight: bold;
+}
+
+.contenedor-precing{
+    display: flex;
+    justify-content: space-around;
+}
+
+#precing .tabla{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 90px 160px 0px rgb(0,0,0,0.1);
+    padding: 20px 59px
+    
+}
+
+#precing ul{
+    padding: 0;
+}
+
+#precing .tabla li:nth-child(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff8f00;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -21px;
+}
+
+#precing .tabla .dolar{
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+}
+
+#precing .tabla .numero{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 14px;
+}
+#precing .mes{
+    color: #999;
+
+}
+#precing .tabla li:nth-child(2){
+    list-style: none;
+    margin-bottom: 48px;
+    margin-left: -21px;
+}
+#precing .item{
+    color: #ff8f00;
+    margin-bottom: 27px;
+
+}
+
+#precing #two .item{
+    color: #296ffa
+}
+#precing .item span{
+    color: #666;
+
+}
+
+#precing #three .item{
+    color:#ff8f00;
+
+}
+#precing #one a {
+    color: #ff8f00;
+    background: rgba(255,143,0,0.1)
+}
+
+#precing #two li:nth-child(1){
+    color: #296FFA
+}
+
+#precing #two a{
+    color: #fff;
+    background: #296FFA
+}
+#precing #three a{
+    color: #2ACF8D;
+    background: rgba(41,207,141,0.1)
+}
+#precing #three li:nth-child(1){
+    color:#2ACF8D
+}
+
+#precing .hidden{
+    color: #ccc
+}
+
+#precing .tabla{
+    position: relative;
+}
+
+#precing hr{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    border-color: #2423230d;
+
+
+}
